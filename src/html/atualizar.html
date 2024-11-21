@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="stylesheet" href="../styles/cadastro css/cadastro_cep2.css">
+	<link rel="icon" href="../images/dog-solid.svg">
+	<title>Doacão - Cadastro</title>
+	<script src="../javascript/atualizar.js" defer></script>
+</head>
+<body>
+
+	<section>
+		<div class="form-box">
+			<div class="form-value">
+				<div class="logo">
+				<a href="../../index.html"> <img src="../images/BordaLogoPng.png" alt="Ender Softwares"> </a>
+				</div>
+
+					<h2>Informações de Endereço</h2>
+
+					
+					<div class="inputbox">
+						<input id="title" type="text" name="title" required>
+						<label for="title">Titulo</label>
+					</div>
+
+					<div class="inputbox">
+                    <input id="cep" type="text" name="cep" required>
+					<label for="cep">CEP</label>
+					</div>
+
+					<div class="inputbox">
+						<input id="address" type="text" name="address" required>
+						<label for="address">Logradouro</label>
+						</div>
+
+
+					<div class="inputbox">
+                    <input id="number" type="text" name="number" required>
+					<label for="number">Número</label>
+					</div>
+
+					<div class="inputbox">
+                    <input id="complement" type="text" name="complement" 
+                    required
+                    data-input disable >
+					<label for="complement">Complemento</label>
+					</div>
+
+
+					
+					<button class="botao" type="submit" onclick="atualizarEndereco()">Continuar</button>
+
+			</div>
+		</div>
+	</section>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

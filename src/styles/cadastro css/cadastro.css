@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+    text-decoration: none;
+overflow-x: hidden;
+}
+
+.termos{
+    color: white;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('../../images/video.gif')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 600px;
+    height: 760px;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.393)0, 0, 0, 0.393 #131e40, rgba(0, 0, 0, 0.393)0, 0, 0, 0.393);
+    border: 2px solid rgba(255, 255, 255, 0.489);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-1%);
+    color: #fff;
+    font-size: 1.1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -20px;
+}
+
+.clear {
+    clear: both;
+  }
+  
+  .checkBox {
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 2px #fff;
+    flex-direction: row;
+    left: 8px;
+    top:-3px;
+  }
+  
+  .checkBox div {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    top: -52px;
+    left: -52px;
+    position: absolute;
+    transform: rotateZ(45deg);
+    z-index: 100;
+  }
+  
+  .checkBox input[type=checkbox]:checked + div {
+    left: -10px;
+    top: -10px;
+  }
+  
+  .checkBox input[type=checkbox] {
+    position: absolute;
+    left: 50px;
+    visibility: hidden;
+  }
+  
+.responsabilidade{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+  
+}
+
+  .transition {
+    transition: 300ms ease;
+  }
+
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    padding: 0 45px 0 10px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -17px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    position: relative;
+    left: 90px;
+    margin-bottom: 5px;
+    margin-top: 29px;
+}
+
+a{
+    color: white;
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.botao {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 29px;
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 10px 45px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+}
+
+.botao:hover {
+    background-color: #46cee9;
+    color: #ffffff;
+    border-color: #ffffff;
+    transition: 0.3s;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 90px;
+}
+
+

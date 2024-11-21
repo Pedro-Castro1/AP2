@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./src/styles/style.css">
+   <link rel="stylesheet" href="./src/styles/home.css">
+   <link rel="stylesheet" href="./src/styles/footer.css">
+   <link rel="stylesheet" href="./src/styles/header.css">
+   <link rel="stylesheet" href="./src/styles/testimonials.css">
+   <link rel="stylesheet" href="./src/styles/dogs.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+   <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="icon" href="./src/images/dog-solid.svg">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Doacão</title>
+    
+</head>
+<body>
+  <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-dog" id="logo"> DOACÃO <i class="fa-solid fa-paw"></i></i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#doacao">Doações</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="./src/html/cadastro.html">Encontre seu melhor amigo!</a>
+            </button>
+
+            <button id="mobile_btn">
+            <i class="fa fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#doacao">Doações</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <a href="./src/html/cadastro.html"><button class="btn-default">
+                Encontre seu melhor amigo!
+            </button></a>
+        </div>
+  </header>  
+
+  <main id="content">
+
+    <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+            <h1 class="title">
+                Viva a vida ao lado do seu <span>Melhor Amigo!</span>
+            </h1>
+
+            <p class="description">
+                Animais em abrigos estão ansiosos por um lar cheio de amor. Ao adotar, você transforma a vida de um ser que precisa de você e ganha um companheiro fiel.
+            </p>
+
+            <div id="cta_buttons">
+
+                <a href="./src/html/login.html" class="btn-default">Adotar um animal</a>
+
+                <a href="tel:+55 11 98762-8803" id="phone_button">
+    
+                    <button class="btn-default">
+                        <i class="fa-solid fa-phone">
+                        </i>
+                    </button>
+                    +55 11 98762-8803
+                </a>
+            </div>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+            </div>
+        </div>
+
+        <div id="banner">
+            <img src="src/images/dog1.png" alt="">
+        </div>
+
+    </section>
+
+
+    <section id="doacao">
+        <h2 class="section-title">Doações</h2>
+        <h3 class="section-subtitle">
+            Todos os animais disponíveis para doação.
+        </h3>
+
+        <div id="dogs">
+
+            <div class="dog">
+                <div class="dog-heart">
+                    <i class="fa-solid fa-heart" ></i>
+                </div>
+
+               <div id="teste">
+                <img src="./src/images/Cachorro-PNG-1.png" class="dog-image">
+                </div>
+                <h3 class="dog-title">
+                    Max
+                </h3>
+
+                <span class="dog-description">Max, um cachorro alegre, foi abandonado em um parque por seu dono. Sozinho e com fome, ele esperava por ajuda até que voluntários o encontraram e o levaram para um abrigo. Lá, Max recebeu cuidados e carinho. Sua história tocou muitos corações, e logo ele foi adotado por uma família amorosa. Agora, Max vive feliz e seguro, mostrando que todo animal merece uma segunda chance.</span>
+                <button class="btn-default">
+                    <i class="fa-solid fa-shield-dog"></i>
+                </button>
+            </div>
+
+            <div class="dog">
+                <div class="dog-heart">
+                    <i class="fa-solid fa-heart" ></i>
+                </div>
+
+               
+                <img src="./src/images/dog2.png" class="dog-image">
+                <h3 class="dog-title">
+                    Bruno
+                </h3>
+
+                <span class="dog-description">Bruno era um cachorro amigável e enérgico, sempre pronto para brincar. Um dia, seu dono se mudou para um novo lugar e, sem condições de levar Bruno, o abandonou em uma rua movimentada. Desesperado e perdido, Bruno vagou por semanas, sempre à procura de um lar.</span>
+                <button class="btn-default">
+                    <i class="fa-solid fa-shield-dog"></i>
+                </button>
+            </div>
+
+            <div class="dog">
+                <div class="dog-heart">
+                    <i class="fa-solid fa-heart" ></i>
+                </div>
+
+               
+                <img src="./src/images/images-removebg-preview.png" class="dog-image">
+                <h3 class="dog-title">
+                    Toby
+                </h3>
+
+                <span class="dog-description">Toby era um cachorro pequeno, mas com um coração gigante. Após ser deixado em um abrigo por um dono que não podia mais cuidar dele, Toby esperava pacientemente por uma nova chance. O abrigo estava cheio, e muitos passavam por ele sem notar.</span>
+                <button class="btn-default">
+                    <i class="fa-solid fa-shield-dog"></i>
+                </button>
+            </div>
+
+            <div class="dog">
+                <div class="dog-heart">
+                    <i class="fa-solid fa-heart" ></i>
+                </div>
+
+               
+                <img src="./src/images/dogao-removebg-preview.png" class="dog-image">
+                <h3 class="dog-title">
+                    Rufus
+                </h3>
+
+                <span class="dog-description">Rufus era um cão grande e forte, mas sua vida tomou um rumo inesperado quando foi abandonado em um estacionamento. Desorientado e sujo, ele vagava em busca de comida e abrigo, até que nosso grupo de resgate o encontrou e o levou para um abrigo.</span>
+                <button class="btn-default">
+                    <i class="fa-solid fa-shield-dog"></i>
+                </button>
+            </div>
+
+
+            
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <img src="./src/images/veterinaria-removebg-preview.png" id="testimonials_chef" srcset="">
+
+        <div id="testimonials_content">
+            <h2 class="section-title">
+                Avaliações
+            </h2>
+            <h3 class="section-subtitle">
+                O que os Adotantes falam sobre nós?
+            </h3>
+
+            <div id="feedbaks">
+                <div class="feedback">
+                    <img src="src/images/Allan.png" alt="" class="feedback-avatar">
+
+                    <div class="feedback-content">
+                        <p>
+                            Allan Gabriel Vieira da Rocha
+                            <span>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                            </span>
+                        </p>
+                        <p>
+                            AAH SE SABE NÉ? o Site ficou chave. Bem otimizado e simples de entender, incrivel e me ajudou a conhecer o meu melhor amigo Fiot. Atualmente já to com ele a algum tempo, eu recomendo demais o Doacao.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="feedback">
+                    <img src="src/images/Joao Vitor.png" alt="" class="feedback-avatar">
+
+                    <div class="feedback-content">
+                        <p>
+                            João Vitor Simão Gomes
+                            <span>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                            </span>
+                        </p>
+                        <p>
+                           Incrivel! Adotei meu cachorro chamado Corinthians ah pouco tempo. Na hora que vi o anuncio dele sabia que era a hora certa. Obrigado Doacão.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="feedback">
+                    <img src="src/images/henrique2.PNG" class="feedback-avatar">
+
+                    <div class="feedback-content">
+                        <p>
+                            Henrique Da Silva Moraes
+                            <span>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                            </span>
+                        </p>
+                        <p>
+                            Sensacional! Acabei de adotar meu gato chamado Felício e estou encantado. Quando vi o anúncio dele, soube imediatamente que era o momento perfeito. Agradeço imensamente à Doacão por tornar isso possível!
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <button class="btn-default">
+                Ver mais avaliações
+            </button>
+        </div>
+    </section>
+
+<section id="equipe">
+    <div class="teams" id="teams">
+        <h1>Equipe <strong>Doacão</strong></h1>
+        <div class="our_team">
+            <div class="team_member">
+                <div class="member_img">
+                <img src="./src/images/Gui.PNG ">
+                  <div class="social_media">
+                    <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                    <div class="facebook item"><i class="fab fa-linkedin"></i></div>
+                    <div class="twitter item"><i class="fab fa-github"></i></div>
+                  </div>
+               </div>
+               <h3>Guilherme Pereira</h3>
+               <p>Guilherme Pereira é um líder habilidoso e desenvolvedor experiente, atuando como Diretor Geral de Projeto e Desenvolvedor Back-end. Com vasta experiência na indústria de TI e especialização em linguagens como Java, Python e Ruby, ele é capaz de liderar equipes e criar soluções back-end eficientes e escaláveis. Sua habilidade de liderança e desenvolvimento faz dele um recurso valioso para o sucesso dos projetos dentro da organização.</p>
+           </div>
+            <div class="team_member">
+               <div class="member_img">
+               <img src="./src/images/Murilo.jpeg">
+               <div class="social_media">
+                   <div class="instagram item"><a href=""><i class="fab fa-instagram"></i></a></div>
+                   <div class="facebook item"><i class="fab fa-linkedin"></i></div>
+                   <div class="twitter item"><i class="fab fa-github"></i></div>
+                 </div>
+              </div>
+            
+              <h3>Murillo Luiz Inacio de Souza</h3>
+              <p>Murillo Souza é um atual tecnólogo com grande experiência em Desenvolvimento de sistemas e de muitos projetos em sua carreira e, o seu projeto principal no momento partiu da criação de um site, uma pagina de doação em que o mesmo, esta trabalhando na parte do front-end do site, no qual ele está desenvolvendo uma linda interface para garantir a melhor experiência aos interessados em doar seus bichinhos.</p>
+          </div>
+          <div class="team_member">
+               <div class="member_img">
+               <img src="./src/images/Pedro Castro.jpeg">
+               <div class="social_media">
+                   <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                   <div class="facebook item"><i class="fab fa-linkedin"></i></div>
+                   <div class="twitter item"><i class="fab fa-github"></i></div>
+                 </div>
+              </div>
+              <h3>Pedro Castro</h3>
+              <p>Sou Pedro Henrique de Castro, tenho 18 anos e estou cursando Análise e Desenvolvimento de Sistemas na Impacta. Desde cedo, sempre fui fascinado por tecnologia e, recentemente, descobri uma paixão pelo desenvolvimento, especialmente na parte de front-end, onde posso unir criatividade e técnica.
+                Estou sempre buscando aprender mais e me aprimorar nas áreas de design e usabilidade, que considero essenciais para criar experiências marcantes. Além dos estudos, sou fã de jogos e vejo como eles influenciam minha forma de pensar em soluções inovadoras e funcionais. Meu objetivo é me tornar um profissional completo na área de ADS, sempre disposto a aprender e crescer na carreira.</p>
+          </div>
+
+          <div class="team_member">
+            <div class="member_img">
+            <img src="./src/images/Maia.jpeg">
+            <div class="social_media">
+                <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                <div class="facebook item"><i class="fab fa-linkedin"></i></div>
+                <div class="twitter item"><i class="fab fa-github"></i></div>
+              </div>
+           </div>
+           <h3>Pedro Maia</h3>
+           <p>Olá, eu sou o Pedro Maia,tenho 18 anos, amante da tecnologia e de animais 
+            Juntando essas duas paixões, eu e o meu grupo fizemos um site para doações e adoções de animais, com um foco para cachorros, aonde o índice de abandono vem aumentando cada vez mais. 
+           Sendo assim, fizemos um site, que por lá você pode adotar um cachorro ou até mesmo colocá-lo para adoção.</p>
+       </div>
+    </div>
+
+</section>
+
+
+  </main>
+
+
+    <footer>
+        <div class="footer">
+             <div class="row">
+                  <a href="https://www.instagram.com/endersoftwares/"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-github"></i></a>
+             </div>
+
+             <div class="row">
+                  <ul>
+                       <li><a href=#home>Home</a></li>
+                       <li><a href=#doacao>Doação</a></li>
+                       <li><a href=#testimonials>Depoimentos</a></li>
+                       <li><a href=#equipe>Equipe</a></li>
+                  </ul>
+             </div>
+
+
+             <div class="row">
+                  || DOACÃO Inc Copyright © 2024. Todos os Direitos Reservados. ||
+             </div>
+
+        </div>
+   </footer>
+
+  <script src="./src/javascript/jsquery.js"></script>
+  <script src="./src/javascript/clear.js"></script>
+
+
+</body>
+</html>
